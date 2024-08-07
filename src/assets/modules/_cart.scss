@@ -1,0 +1,41 @@
+.card {
+  background: $lightest-grey;
+  padding: 15px;
+  margin: 0 15px 15px 15px;
+  border-radius: 5px;
+  border-left: solid 3px transparent;
+  &.to-do {
+    border-color: $red;
+  }
+  &.in-progress {
+    border-color: $yellow;
+  }
+  &.review {
+    border-color: $purple;
+  }
+  &.completed {
+    border-color: $green;
+  }
+  &.dragging {
+    opacity: 0.8;
+  }
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  .material-symbols-outlined {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+}
+
+.card-title {
+  @include font-style($font-w-m-d, h3-font-size($default-font-size), $bold-font-weight, $primary-grey);
+  margin: 0;
+}
+
+.card-body {
+  padding-top: 15px;
+}
+

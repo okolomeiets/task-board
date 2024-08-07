@@ -1,0 +1,34 @@
+.column {
+  flex: 1;
+  margin: 0 10px;
+  background: $blue;
+  box-shadow: 0 0 1px $dark-grey;
+}
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #3c3e51;
+  padding: 0 20px;
+  &.to-do {
+    border-top: solid 2px $red;
+  }
+  &.in-progress {
+    border-top: solid 2px $yellow;
+  }
+  &.review {
+    border-top: solid 2px $purple;
+  }
+  &.completed {
+    border-top: solid 2px $green;
+  }
+}
+.add-task-btn {
+  background: transparent;
+  color: $secondary-grey;
+  border: none;
+  cursor: pointer;
+}
+.column-body {
+  padding: 15px 0;
+}

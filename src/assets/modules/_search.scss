@@ -1,0 +1,19 @@
+.search {
+  background: #3c4155;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+.search-field {
+  background: #3c4155;
+  border: none;
+  padding: 25px 15px;
+  color: $default-font-color;
+  &::placeholder {
+    color: $default-font-color;
+  }
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,122 @@
+
+
+{
+  "tasks":
+  [
+    {
+      "id": "3e0b06de-2f77-4bad-bc1e-347e89403f83",
+      "title": "Set up development environment",
+      "description": "Install and configure the necessary software for development",
+      "status": "To Do"
+    },
+    {
+      "id": "2246bd06-1ea4-4a5a-8305-1b23b6a17139",
+      "title": "Develop API endpoints",
+      "description": "Create the necessary API endpoints for the application",
+      "status": "In Progress"
+    },
+    {
+      "id": "9155d6eb-1442-4e4e-9834-6ecbebe6e7f5",
+      "title": "Write unit tests",
+      "description": "Ensure the application's functionality with appropriate testing",
+      "status": "Review"
+    },
+    {
+      "id": "af9f242b-0932-4ff4-8b47-559b169e668a",
+      "title": "Refactor legacy code",
+      "description": "Improve readability and efficiency of existing codebase",
+      "status": "Completed"
+    },
+    {
+      "id": "339b3a03-e0d6-46a8-9195-57018a9040b0",
+      "title": "Design UI/UX",
+      "description": "Create a user-friendly interface and experience",
+      "status": "To Do"
+    },
+    {
+      "id": "4eaf8886-d83c-46ab-ae04-5721dbab9e99",
+      "title": "Create Database Schema",
+      "description": "Design and implement an efficient database schema",
+      "status": "In Progress"
+    },
+    {
+      "id": "da890a22-568e-497e-807d-d49d795c355e",
+      "title": "Implement OAuth",
+      "description": "Set up OAuth authentication for user login",
+      "status": "Review"
+    },
+    {
+      "id": "89d8a684-84e2-4e73-8b7c-95e5be14950a",
+      "title": "Resolve merge conflicts",
+      "description": "Handle conflicts from recent pull request",
+      "status": "Completed"
+    },
+    {
+      "id": "755b8a06-905b-4b08-bcd3-67f647c3b6ab",
+      "title": "Perform load testing",
+      "description": "Evaluate the application's performance under heavy load",
+      "status": "To Do"
+    },
+    {
+      "id": "9f7ae669-6c53-40ee-a8dc-6d4ba6e6a6e7",
+      "title": "Optimize database queries",
+      "description": "Ensure efficient data retrieval with optimized queries",
+      "status": "In Progress"
+    },
+    {
+      "id": "f17d80f9-cdb1-4be2-a981-1ba84216e498",
+      "title": "Update project documentation",
+      "description": "Write and update documentation to reflect current project status",
+      "status": "Review"
+    },
+    {
+      "id": "1c90960a-812a-4082-aefd-095a72273edb",
+      "title": "Fix reported bugs",
+      "description": "Handle and resolve bugs reported by users",
+      "status": "Completed"
+    },
+    {
+      "id": "fc8f165f-24b7-4c50-aa05-1103914c59db",
+      "title": "Write script for data migration",
+      "description": "Create script to migrate data to new database schema",
+      "status": "To Do"
+    },
+    {
+      "id": "c4edf4b7-01d8-4ce6-a722-e3a6a3a61488",
+      "title": "Configure continuous integration",
+      "description": "Set up CI pipeline for automated testing and deployment",
+      "status": "In Progress"
+    },
+    {
+      "id": "b6302a3b-0578-41dc-90d4-a91b60bdbee9",
+      "title": "Implement User Authentication",
+      "description": "Create a secure user authentication using JWT",
+      "status": "To Do"
+    },
+    {
+      "id": "9de24575-3a37-4d98-8a2b-7eb3978dbf36",
+      "title": "Deploy to Production",
+      "description": "Deploy the latest stable version of the project to the production environment",
+      "status": "In Progress"
+    },
+    {
+      "id": "25c24a66-75c2-4fda-9f1a-84be5c4b4e14",
+      "title": "Fix User Login Bug",
+      "description": "Investigate and resolve the bug causing user login failures",
+      "status": "Review"
+    },
+    {
+      "id": "f17d92d2-731f-4df6-9f75-7fe3a12cb625",
+      "title": "Update App Dependencies",
+      "description": "Ensure all application dependencies are up to date for security and performance",
+      "status": "Completed"
+    },
+    {
+      "id": "9f30f5b4-95bb-4516-9f2a-0c8c24bd9f45",
+      "title": "Document API Endpoints",
+      "description": "Properly document all available API endpoints for front-end team",
+      "status": "To Do"
+    }
+
+  ]
+}

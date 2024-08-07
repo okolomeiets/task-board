@@ -1,0 +1,17 @@
+body {
+  background: $primary-dark-blue;
+  margin: 0;
+  @include font-style($font-inter, $default-font-size, $default-font-weight, $default-font-color);
+}
+.material-symbols-outlined {
+  @include material-symbols-outlined;
+}
+.app-header {
+  background: #2c2f44;
+}
+.app-wrapper {
+  display: flex;
+}
+footer {
+  text-align: center;
+}
